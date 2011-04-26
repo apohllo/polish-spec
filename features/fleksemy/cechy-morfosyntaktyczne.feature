@@ -64,28 +64,34 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I odmienia się defektywnie przez akomodacyjność
 
     Jeżeli w słowniku jest fleksem typu 'liczebnik zbiorowy'
-    Wtedy posiada on ustaloną liczbę
-    I posiada on ustalony rodzaj
-    I odmienia się przez przypadki
-    I odmienia się defektywnie przez akomodacyjność
-
-    Jeżeli w słowniu jest fleksem typu 'liczebnik bezrodzajowy'
     # Czy nie lepiej byłoby go zaklasyfikować tak jak jednorodzajowy?
     # Tysiąc dzieci, drzwi
     # Troje dzieci, drzwi
     # ale:
     # Tysiąc okien
     # Trzy okna...
-    Wtedy posiada on ustaloną liczbę
-    # Ten fakt kłóci się z nazwą - dwoje drzwi, troje dzieci - n
-    I posiada on ustalony rodzaj
+    #
+    # Liczba, podobnie jak rodzaj określana jest dla związku zgody.
+    # Specyficzny związek rządu, wymaga żeby fraza zależna była w liczbie mnogiej.
+    Wtedy posiada on liczbę pojedynczą
+    # Ten rodzaje nie oznacza, że występuje określony związek zgody.
+    # Związek ten jest dużo bardziej skomplikowany, bo:
+    #   troje dzieci
+    # ale również
+    #   troje studentów
+    # Stąd bierze się nazwa 'bezrodzajowy'. Rodzaj nijaki brany jest tylko
+    # w kontekście związków, w których liczebnik ten występuje w związku zgody
+    # np. z czasownikiem 'pięcioro brało'. W związku rządu (co nie jest zaskoczeniem)
+    # rodzaj jest ignorowany, ale tylko w pewnym zkresie (np. rodzaj żeński
+    # wyklucza użycie tego liczebnika).
+    I posiada on rodzaj nijaki
     I odmienia się przez przypadki
 
     Jeżeli w słowniku jest fleksem typu 'liczebnik dwurodzajowy'
     Wtedy posiada on ustaloną liczbę
     I odmienia się przez rodzaje
     I odmienia się przez przypadki
-    # Czy wprowadzać tutaj tę kategorię?
+    # Czy wprowadzać tutaj tę kategorię? Nie.
     # TODO Zweryfikować dla pozostałych fleksemów liczebnikowych
     #I odmienia się defektywnie przez akomodacyjność
 
