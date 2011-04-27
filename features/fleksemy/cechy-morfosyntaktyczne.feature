@@ -98,14 +98,14 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     # składniowa odmienność może być uznana za ceche dystynktywną.
     Jeżeli w słowniku jest fleksem typu 'liczebnik jednorodzajowy'
     Wtedy odmienia się przez liczbę
-    I posiada on ustalony rodzaj
+    I posiada on rodzaj męski nieżywotny
     I odmienia się przez przypadki
+    I posiada akomodacyjność rządzącą
 
-    Jeżeli w słowniku jest fleksem typu 'liczebnik nieodmienny'
-    Wtedy we wszystkich rodzajach występuje w formie podstawowej
-    I we wszystkich liczbach występuje w formie podstawowej
-    I odmienia się przez przypadki: mianownik, biernik i dopełniacz
-    I we wszystkich przypadkach występuje w formie podstawowej
+    Jeżeli w słowniku jest fleksem typu 'liczebnik wielorodzajowy'
+    Wtedy odmienia się przez rodzaje
+    I odmienia się przez przypadki
+    I odmienia się defektywnie przez akomodacyjność
 
     # Liczebnik ten tym różni się od dwurodzajowego, że jego
     # wartość jest nieokreślona, dlatego nie może być stowarzyszony
@@ -116,11 +116,18 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Wtedy posiada on ustaloną liczbę
     I odmienia się przez rodzaje
     I odmienia się przez przypadki
+    I odmienia się defektywnie przez akomodacyjność
 
-    Jeżeli w słowniku jest fleksem typu 'liczebnik wielorodzajowy'
-    Wtedy posiada on ustaloną liczbę
-    I odmienia się przez rodzaje charakterystyczne dla liczby pojedynczej
-    I odmienia się przez przypadki
+    # Odmienia się jak rzeczownik nieodmienny, z zastrzeżeniem, że
+    # może występować tylko w mianowniku, dopełniaczu i bierniku
+    # W zasadzie w swojej charakterystyce jest bardzo podobny do
+    # przysłówka.
+    Jeżeli w słowniku jest fleksem typu 'liczebnik nieodmienny'
+    Wtedy we wszystkich rodzajach występuje w formie podstawowej
+    I we wszystkich liczbach występuje w formie podstawowej
+    I odmienia się przez przypadki: mianownik, dopełniacza i biernika
+    I we wszystkich przypadkach występuje w formie podstawowej
+
 
     # Kanoniczna postać liczebnika określonego.
     Jeżeli w słowniku jest fleksem typu 'liczba'
@@ -132,6 +139,12 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I odmienia się przez rodzaje
     I odmienia się przez przypadki
     I odmienia się przez stopnie
+
+    Jeżeli w słowniku jest fleksem typu 'przymiotnik niestopniowalny'
+    Wtedy posiada on stopień równy
+    I odmienia się przez liczbę
+    I odmienia się przez rodzaje
+    I odmienia się przez przypadki
 
     Jeżeli w słowniku jest fleksem typu 'przymiotnik przyprzymiotnikowy'
     Wtedy jest on nieodmienny
