@@ -70,6 +70,10 @@ Właściwość: typy fleksemów - cf. Wolinski (2004), Przepiórkowski (2004), L
     Jeżeli w słowniku jest forma 'polski'
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'przymiotnik'
+
+    Jeżeli w słowniku jest forma 'taki'
+    I szukam dla niej fleksemów
+    Wtedy znajduję fleksem typu 'przymiotnik niestopniowalny' lub fleksemy typu 'przymiotnik'
     
     # adja
     Jeżeli w słowniku jest forma 'polsko'
@@ -86,9 +90,6 @@ Właściwość: typy fleksemów - cf. Wolinski (2004), Przepiórkowski (2004), L
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'przymiotnik nieodmienny'
 
-    Jeżeli w słowniku jest forma 'taki'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'przymiotnik niestopniowalny' lub fleksemy typu 'przymiotnik'
   Scenariusz: fleksemy przysłówkowe
     # adv
     Jeżeli w słowniku jest forma 'dobrze'
@@ -96,7 +97,7 @@ Właściwość: typy fleksemów - cf. Wolinski (2004), Przepiórkowski (2004), L
     Wtedy znajduję fleksem typu 'przysłówek'
 
     # z CLP
-    Jeżeli w słowniku jest forma 'żywotniej'
+    Jeżeli w słowniku jest forma 'ludzko'
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'przysłówek nieodmienny'
 
@@ -111,10 +112,14 @@ Właściwość: typy fleksemów - cf. Wolinski (2004), Przepiórkowski (2004), L
     Wtedy znajduję fleksem typu 'zaimek nietrzecioosobowy nieakcentowany' lub fleksem typu 'zaimek nietrzecioosobowy' lub fleksem typu 'zaimek bezrodzajowy'
 
     # ppron3, CLP: zaimek męski osobowy, etc.
-    # TODO dopisać alternatywę dla CLP
     Jeżeli w słowniku jest forma 'on'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'zaimek trzecioosobowy'
+    Wtedy znajduję fleksem typu 'zaimek trzecioosobowy akcentowany'
+
+    # ppron3, CLP: zaimek męski osobowy, etc.
+    Jeżeli w słowniku jest forma 'ona'
+    I szukam dla niej fleksemów
+    Wtedy znajduję fleksem typu 'zaimek trzecioosobowy nieakcentowany'
 
     # siebie
     Jeżeli w słowniku jest forma 'siebie'
