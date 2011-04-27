@@ -84,14 +84,13 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Wtedy posiada on liczbę mnogą
     I nie posiada rodzaju
     I odmienia się przez przypadki
+    I dla każdej formy posiada on określoną akomodacyjność
 
     Jeżeli w słowniku jest fleksem typu 'liczebnik dwurodzajowy'
-    Wtedy posiada on ustaloną liczbę
+    Wtedy posiada on liczbę mnogą
     I odmienia się przez rodzaje
     I odmienia się przez przypadki
-    # Czy wprowadzać tutaj tę kategorię? Nie.
-    # TODO Zweryfikować dla pozostałych fleksemów liczebnikowych
-    #I odmienia się defektywnie przez akomodacyjność
+    I odmienia się defektywnie przez akomodacyjność
 
     # Zasadniczo jak rzeczownik (odmienia się przez liczby i przypadki,
     # posiada ustalony rodzaj, wymaga rzeczownika w dopełniaczu)
@@ -143,22 +142,16 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Jeżeli w słowniku jest fleksem typu 'przymiotnik nieodmienny'
     Wtedy jest on nieodmienny
 
-    Jeżeli w słowniku jest fleksem typu 'przymiotnik niestopniowalny'
-    Wtedy posiada on stopień równy
-    I odmienia się przez liczbę
-    I odmienia się przez rodzaje
-    I odmienia się przez przypadki
-
   Scenariusz: fleksemy przysłówkowe
     Jeżeli w słowniku jest fleksem typu 'przysłówek'
-    Wtedy odmienia się przez stopnie
+    Wtedy jest on stopniowalny
 
     Jeżeli w słowniku jest fleksem typu 'przysłówek nieodmienny'
     Wtedy posiada on stopień równy
 
   Scenariusz: fleksemy zaimkowe
     Jeżeli w słowniku jest fleksem typu 'zaimek nietrzecioosobowy akcentowany'
-    Wtedy posiada on określoną liczbę
+    Wtedy posiada on liczbę pojedynczą
     I posiada on określoną osobę
     # Odmiana (? raczej ustalona wartość) przez rodzaj
     # jest cechą ściśle syntaktyczną, a nie morfosyntaktyczną
@@ -173,18 +166,25 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     #I odmienia się przez rodzaj
     I odmienia się przez przypadki
 
-    Jeżeli w słowniku jest fleksem typu 'zaimek trzecioosobowy'
-    Wtedy posiada on ustaloną osobę
-    # (?) Można by potraktować go jak powyższe zaimki - o ile przyjmiemy, że
-    # zaimki nietrzecioosobowe faktycznie odmieniają się przez rodzaj
+    Jeżeli w słowniku jest fleksem typu 'zaimek trzecioosobowy akcentowany'
+    Wtedy posiada on trzecią osobę
+    I posiada on liczbę pojedynczą
+    # Właściwie posiada po prostu rodzaj męski
+    I posiada on rodzaj męski osobowy
+    I odmienia się przez przypadki
+    I odmienia się defektywnie przez akcentowość
+    I odmienia się defektywnie przez poprzyimkowość
+
+    Jeżeli w słowniku jest fleksem typu 'zaimek trzecioosobowy nieakcentowany'
+    Wtedy posiada on trzecią osobę
+    I posiada on ustalony rodzaj
     I odmienia się przez liczbę
     I odmienia się przez przypadki
-    I odmienia się przez rodzaje
-    I odmienia się defektywnie przez akcentowość
     I odmienia się defektywnie przez poprzyimkowość
 
     Jeżeli w słowniku jest fleksem typu 'zaimek zwrotny'
     Wtedy odmienia się przez przypadki: dopełniacz, celownik, biernik, narzędnik i miejscownik
+    I posiada liczbę pojedynczą
 
     Jeżeli w słowniku jest fleksem typu 'zaimek dwurodzajowy'
     # jak rzeczownik defektywny - jeśli tyle i tylu są osobnymi fleksemami
@@ -228,14 +228,14 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Jeżeli w słowniku jest fleksem typu 'forma przyszła czasownika BYĆ'
     # (?) różnica względem formy nieprzeszłej jest tylko w dystrybucji
     Wtedy odmienia się przez liczbę
-    I odmienia się przez osoby
-    I posiada on ustalony czas
-    I posiada on ustalony aspekt
+    # tylko pierwsza i druga osoba
+    I odmienia się defektywnie przez osoby
+    I posiada on czas przyszły
+    I posiada on aspekt niedokonany
     I posiada on tryb oznajmujący
 
     Jeżeli w słowniku jest fleksem typu 'aglutynant czasownika BYĆ'
     Wtedy odmienia się przez osoby
-    I odmienia się przez rodzaje
     I odmienia się przez wokaliczność
     # Aspekt aglutynantu BYĆ nie jest cecha morfologiczną, lecz stricte syntaktyczną.
     # Powinien być raczej przypisany leksemowi, którego ten aglutynant jest składnikiem.
@@ -280,31 +280,34 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
 
     Jeżeli w słowniku jest fleksem typu 'imiesłów przymiotnikowy czynny'
     Wtedy odmienia się przez liczbę
-    I odmienia się przez rodzaj
-    I odmienia się przez osobę
+    I odmienia się przez rodzaje
+    I odmienia się przez przypadki
     # zanegowanie mogłobybyć traktowane jako aglutynant
     # ponadto nie ma konsekwencji - przymiotniki (i rzeczowniki?)
     # nie odmieniają się przez zanegowanie
-    I odmienia się przez zanegowanie
+    #I odmienia się przez zanegowanie
     I posiada on aspekt niedokonany
 
     Jeżeli w słowniku jest fleksem typu 'imiesłów przymiotnikowy bierny'
     Wtedy odmienia się przez liczbę
     I odmienia się przez przypadek
     I odmienia się przez rodzaj
-    I odmienia się przez zanegowanie
+    # jw. - nie to aglutynant
+    #I odmienia się przez zanegowanie
     I posiada on ustalony aspekt
 
     Jeżeli w słowniku jest fleksem typu 'odsłownik'
     Wtedy odmienia się przez liczbę
     I odmienia się przez przypadek
-    I odmienia się przez zanegowanie
+    # jw.
+    #I odmienia się przez zanegowanie
     I posiada on rodzaj nijaki
     I posiada on ustalony aspekt
 
     Jeżeli w słowniku jest fleksem typu 'czasownik imperatywny'
     Wtedy odmienia się przez liczbę
     I odmienia się przez rodzaje
+    I odmienia się przez osoby
     I posiada on ustalony aspekt
 
     Jeżeli w słowniku jest fleksem typu 'czasownik analityczny'
@@ -313,7 +316,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Jeżeli w słowniku jest fleksem typu 'czasownik nieosobowy'
     Wtedy posiada on jedną formę czasu przeszłego
     I posiada on jedną formę czasu teraźniejszego
-    I posiada on jedną formę bezokolicznika
 
   Scenariusz: fleksemy niedomienne
-    #TODO - ogólnie wszystkie są nieodmienne, a przypimki rządzą określonymi przypadkami 
+    #TODO - ogólnie wszystkie są nieodmienne,
+    #dodatkowo przypimki rządzą określonymi przypadkami
