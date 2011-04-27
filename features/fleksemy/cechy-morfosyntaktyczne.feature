@@ -63,6 +63,13 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I odmienia się przez przypadki
     I odmienia się defektywnie przez akomodacyjność
 
+    # Liczebnik bezrodzajowy
+    # Liczba rodzajów oznacza liczbę możliwych odmian danego liczebnika,
+    # czyli wyróżnione rodzaje liczebnika z którymi łączą się wyróżnione
+    # rodzaje podrzędnej frazy nominalnej. Bezrodzajowść oznacza, że
+    # w zasadzie "jedyny" rodzaj może łączyć się z różnymi rodzajami
+    # podrzędnej frazy nominalej. Należy jednak wziąć pod uwagę, że ten "rodzaj"
+    # nie łączy się z każdym rodzajem frazy nominalnej.
     Jeżeli w słowniku jest fleksem typu 'liczebnik zbiorowy'
     # Czy nie lepiej byłoby go zaklasyfikować tak jak jednorodzajowy?
     # Tysiąc dzieci, drzwi
@@ -71,20 +78,11 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     # Tysiąc okien
     # Trzy okna...
     #
-    # Liczba, podobnie jak rodzaj określana jest dla związku zgody.
-    # Specyficzny związek rządu, wymaga żeby fraza zależna była w liczbie mnogiej.
-    Wtedy posiada on liczbę pojedynczą
-    # Ten rodzaje nie oznacza, że występuje określony związek zgody.
-    # Związek ten jest dużo bardziej skomplikowany, bo:
-    #   troje dzieci
-    # ale również
-    #   troje studentów
-    # Stąd bierze się nazwa 'bezrodzajowy'. Rodzaj nijaki brany jest tylko
-    # w kontekście związków, w których liczebnik ten występuje w związku zgody
-    # np. z czasownikiem 'pięcioro brało'. W związku rządu (co nie jest zaskoczeniem)
-    # rodzaj jest ignorowany, ale tylko w pewnym zkresie (np. rodzaj żeński
-    # wyklucza użycie tego liczebnika).
-    I posiada on rodzaj nijaki
+    # Liczba oznacza liczbę wymaganą dla podrzędnej frazy nominalnej.
+    # W związkach z czasownikami liczebnik o akomodacyjności rządzącej
+    # zawsze (?) wymaga rodzaju nijakiego i liczby pojedynczej.
+    Wtedy posiada on liczbę mnogą
+    I nie posiada rodzaju
     I odmienia się przez przypadki
 
     Jeżeli w słowniku jest fleksem typu 'liczebnik dwurodzajowy'
@@ -95,6 +93,10 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     # TODO Zweryfikować dla pozostałych fleksemów liczebnikowych
     #I odmienia się defektywnie przez akomodacyjność
 
+    # Zasadniczo jak rzeczownik (odmienia się przez liczby i przypadki,
+    # posiada ustalony rodzaj, wymaga rzeczownika w dopełniaczu)
+    # z tym, że wymagany rzeczownik musi być w liczbie mnogiej i ta
+    # składniowa odmienność może być uznana za ceche dystynktywną.
     Jeżeli w słowniku jest fleksem typu 'liczebnik jednorodzajowy'
     Wtedy odmienia się przez liczbę
     I posiada on ustalony rodzaj
@@ -106,7 +108,11 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I odmienia się przez przypadki: mianownik, biernik i dopełniacz
     I we wszystkich przypadkach występuje w formie podstawowej
 
-    # TODO nie wiadomo czym się różni od dwurodzajowego
+    # Liczebnik ten tym różni się od dwurodzajowego, że jego
+    # wartość jest nieokreślona, dlatego nie może być stowarzyszony
+    # z liczebnikami porzadkowymi, itp.
+    # Dodatkowo można pomyśleć nad powiązaniem go z liczebnikiem
+    # nieodmiennym: troszkę - niewiele, dużo - wiele
     Jeżeli w słowniku jest fleksem typu 'liczebnik nieokreślony'
     Wtedy posiada on ustaloną liczbę
     I odmienia się przez rodzaje
@@ -117,6 +123,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I odmienia się przez rodzaje charakterystyczne dla liczby pojedynczej
     I odmienia się przez przypadki
 
+    # Kanoniczna postać liczebnika określonego.
     Jeżeli w słowniku jest fleksem typu 'liczba'
     Wtedy jest on nieodmienny
 
@@ -238,6 +245,9 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Wtedy jest on nieodmienny
     I posiada on tryb przypuszczający
 
+    # TODO wprowadzić domyślne wartości pewnych cech gramatycznych,
+    # np. domyślnie pseudoimiesłów jest w 3 osobie, ma tryb oznajmujący i
+    # czas przeszły
     Jeżeli w słowniku jest fleksemy typu 'pseudoimiesłów'
     Wtedy odmienia się przez liczbę
     I odmienia się przez rodzaje
