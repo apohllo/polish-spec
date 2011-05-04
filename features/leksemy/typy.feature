@@ -1,4 +1,4 @@
-#pl
+# language: pl
 Właściwość: typy leksemów
   Czym jest leksem - składa się z fleksemów, ale należy to rozumieć dwojako:
   - w sensie kompozycyjnym - jeden leksem (w tekście) może być złożony z kilku fleksemów,

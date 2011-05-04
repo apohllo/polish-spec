@@ -1,4 +1,4 @@
-# pl
+# language: pl
 Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Aby poprawnie rozpoznawać i odmieniać fleksemy
     słownik musi zawierać ich cechy morfologiczne i morfosyntaktyczne.

@@ -1,4 +1,4 @@
-#pl
+# language: pl
 Właściwość: powiązanie leksemów z fleksemami
   Aby poprawnie analizować tekst i wykorzystać podział na fleksemy i leksemy,
   konieczne jest powiązanie tych drugich z pierwszymi, dzięki czemu
@@ -78,6 +78,8 @@ Właściwość: powiązanie leksemów z fleksemami
     Wtedy jest powiązany z co najmniej dwoma fleksemami typu 'rzeczownik defektywny' o różnych rodzajach
 
   Scenariusz: leksemy liczebnikowe
+    Jeżeli w słowniku jest leksem typu 'liczebnik'
+    
 
   Scenariusz: leksemy przymiotnikowe
 

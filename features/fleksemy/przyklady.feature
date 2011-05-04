@@ -1,4 +1,4 @@
-# pl
+# language: pl
 Właściwość: przykłady cech morfologicznych i morfosyntaktycznych fleksemów
     Słownik powinien poprawnie interpretować następujące przykłady form
     należących do różnych klas fleksyjnych

@@ -1,5 +1,6 @@
-# pl
-Właściwość: typy fleksemów - cf. Wolinski (2004), Przepiórkowski (2004), Lubaszewski
+# language: pl
+Właściwość: typy fleksemów 
+    cf. Wolinski (2004), Przepiórkowski (2004), Lubaszewski (2009)
     Aby być kompletnym słownik musi zawierać wiele typów fleksemów.
   Założenia:
     Zakładając że kodowanie ustawione jest na 'utf-8'
