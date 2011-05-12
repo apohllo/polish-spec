@@ -17,22 +17,16 @@ Właściwość: typy fleksemów
 
     Jeżeli w słowniku jest forma 'wszystko'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'rzeczownik singulare tantum' lub fleksem typu 'rzeczownik defaktywny' lub fleksem typu 'rzeczownik'
+    Wtedy znajduję fleksem typu 'rzeczownik defektywny'
 
     Jeżeli w słowniku jest forma 'żyworódki'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'rzeczownik plurale tantum' lub fleksem typu 'rzeczownik defaktywny' lub fleksem typu 'rzeczownik'
-
-    # W CLP tylko jedno wystąpienie, redundantny wobec rzeczownika defektywnego
-    # i ciała obcego nominalnego
-    #Jeżeli w słowniku jest forma 'Clermont'
-    #I szukam dla niej fleksemów
-    #Wtedy znajduję fleksem typu 'rzeczownik nieodmienny' lub fleksem typu 'rzeczownik defektywny' lub fleksem typu 'rzeczownik'
+    Wtedy znajduję fleksem typu 'rzeczownik defektywny'
 
     # xxs
     Jeżeli w słowniku jest forma 'John'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'ciało obce nominalne' lub fleksem typu 'rzeczownik'
+    Wtedy znajduję fleksem typu 'ciało obce nominalne'
 
   Scenariusz: fleksemy liczebnikowe
     # num, CLP: liczebnik dwurodzajowy
@@ -74,7 +68,7 @@ Właściwość: typy fleksemów
 
     Jeżeli w słowniku jest forma 'taki'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'przymiotnik niestopniowalny' lub fleksemy typu 'przymiotnik'
+    Wtedy znajduję fleksem typu 'przymiotnik niestopniowalny'
     
     # adja
     Jeżeli w słowniku jest forma 'polsko'
@@ -214,12 +208,12 @@ Właściwość: typy fleksemów
     # winien, CLP: czasownik imperatywny
     Jeżeli w słowniku jest forma 'winien'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'WINIEN' lub fleksem typu 'czasownik imperatywny'
+    Wtedy znajduję fleksem typu 'czasownik imperatywny'
 
     # pred, CLP: czasownik analityczny
     Jeżeli w słowniku jest forma 'warto'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'predykatyw' lub fleksem typu 'czasownik analityczny'
+    Wtedy znajduję fleksem typu 'czasownik analityczny'
 
     # z CLP
     Jeżeli w słowniku jest forma 'należy'
