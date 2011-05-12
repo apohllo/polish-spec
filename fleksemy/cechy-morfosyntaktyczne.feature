@@ -16,8 +16,9 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Jeżeli w słowniku jest fleksem typu 'rzeczownik'
     Wtedy posiada on ustalony rodzaj
     I posiada on ustaloną kasztowość
-    I może być odmieniany przez przypadki
-    I może być odmieniany przez liczby
+    I odmienia się przez przypadki
+    I odmienia się przez liczby
+    I posiada 14 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'rzeczownik deprecjatywny'
     Wtedy posiada on ustalony rodzaj
