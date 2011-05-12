@@ -11,7 +11,7 @@ Właściwość: typy kategorii gramatycznych, fleksyjnych, etc.
       | typ                                | oznaczenie |
       #-------------------------------------------------#
       | rzeczownik                         | subst      |
-      | rzeczownik deprecjatynwy           | depr       |
+      | rzeczownik deprecjatywny           | depr       |
       | rzeczownik defektywny              | sdef       |
       | ciało obce nominalne               | xxs        |
       # TODO fleksemy liczebnikowe
