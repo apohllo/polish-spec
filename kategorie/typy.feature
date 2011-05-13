@@ -41,4 +41,21 @@ Właściwość: typy kategorii gramatycznych, fleksyjnych, etc.
       | czasownik nieosobowy               | impsdef    |
       # TODO fleksemy nieodmienne
 
-
+  Szablon scenariusza: kategorie gramatyczne
+    Jeżeli w słowniku występuje kategoria gramatycza '<kategoria>'
+    Wtedy posiada ona oznaczenie '<oznaczenie>'
+    Przykłady:
+      | typ             | oznaczenie |
+      #------------------------------#
+      | przypadek       | case       |
+      | rodzaj          | gender     |
+      | liczba          | number     |
+      | osoba           | person     |
+      | stopień         | degree     |
+      | aspekt          | aspect     |
+      | akcentowość     | accent     |
+      | poprzyimkowość  | pospre     |
+      | akomodacyjność  | accomm     |
+      | aglutynacyjność | agglut     |
+      | wokaliczność    | vocal      |
+      | kasztowość      | lcase      |
