@@ -1,9 +1,11 @@
 # language: pl
 Właściwość: typy fleksemów 
     cf. Wolinski (2004), Przepiórkowski (2004), Lubaszewski (2009)
-    Aby być kompletnym słownik musi zawierać wiele typów fleksemów.
+    Kompletny słownik musi zawierać wiele typów fleksemów.
+
   Założenia:
     Zakładając że kodowanie ustawione jest na 'utf-8'
+
   Scenariusz: fleksemy rzeczownikowe
     # subst
     Jeżeli w słowniku jest forma 'profesor'
@@ -32,33 +34,32 @@ Właściwość: typy fleksemów
     # num, CLP: liczebnik dwurodzajowy
     Jeżeli w słowniku jest forma 'pięć'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'liczebnik główny' lub 'liczebnik dwurodzajowy'
+    Wtedy znajduję fleksem typu 'liczebnik dwurodzajowy'
 
     # numcol, CLP: liczebnik bezrodzajowy
     Jeżeli w słowniku jest forma 'pięcioro'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'liczbenik zbiorowy' lub 'liczebnik bezrodzajowy'
+    Wtedy znajduję fleksem typu 'liczbenik zbiorowy'
 
     Jeżeli w słowniku jest forma 'tysiąc'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'liczebnik jednorodzajowy' lub 'liczebnik główny'
-
-    Jeżeli w słowniku jest forma 'troszkę'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'liczebnik nieodmienny' lub 'liczebnik główny'
-
-    Jeżeli w słowniku jest forma 'wiele'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'liczebnik nieokreślony' lub 'liczebnik główny'
+    Wtedy znajduję fleksem typu 'liczebnik jednorodzajowy'
 
     Jeżeli w słowniku jest forma 'obydwie'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'liczebnik wielorodzajowy' lub 'liczebnik główny'
+    Wtedy znajduję fleksem typu 'liczebnik wielorodzajowy'
+
+    Jeżeli w słowniku jest forma 'troszkę'
+    I szukam dla niej fleksemów
+    Wtedy znajduję fleksem typu 'liczebnik nieodmienny'
+
+    Jeżeli w słowniku jest forma 'wiele'
+    I szukam dla niej fleksemów
+    Wtedy znajduję fleksem typu 'liczebnik nieokreślony'
 
     Jeżeli w słowniku jest forma '5'
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'liczba'
-
 
   Scenariusz: fleksemy przymiotnikowe
     # adj
@@ -119,25 +120,24 @@ Właściwość: typy fleksemów
     # siebie
     Jeżeli w słowniku jest forma 'siebie'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'siebie' lub fleksem typu 'zaimek zwrotny'
+    Wtedy znajduję fleksem typu 'zaimek zwrotny'
 
     # TODO Sprawdzić różnice względem rzeczownika i przymiotnika
-    # TODO Dopisać interpretacje zgodne z korpusem IPI PAN
     Jeżeli w słowniku jest forma 'tyluż'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'zaimek dwurodzajowy' lub fleksem typu 'liczebnik' 
+    Wtedy znajduję fleksem typu 'zaimek dwurodzajowy'
 
     Jeżeli w słowniku jest forma 'zali'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'zaimek nieodmienny' lub fleksem typu 'kublik'
+    Wtedy znajduję fleksem typu 'zaimek nieodmienny'
 
     Jeżeli w słowniku jest forma 'nic'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'zaimek nieosobowy' lub fleksem typu 'rzeczownik'
+    Wtedy znajduję fleksem typu 'zaimek nieosobowy'
 
     Jeżeli w słowniku jest forma 'nikt'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'zaimek osobowy' lub fleksem typu 'rzeczownik'
+    Wtedy znajduję fleksem typu 'zaimek osobowy'
 
   Scenariusz: fleksemy czasownikowe
     # fin
