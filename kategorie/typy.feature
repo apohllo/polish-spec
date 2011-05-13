@@ -45,7 +45,7 @@ Właściwość: typy kategorii gramatycznych, fleksyjnych, etc.
     Jeżeli w słowniku występuje kategoria gramatycza '<kategoria>'
     Wtedy posiada ona oznaczenie '<oznaczenie>'
     Przykłady:
-      | typ             | oznaczenie |
+      | kategoria       | oznaczenie |
       #------------------------------#
       | przypadek       | case       |
       | rodzaj          | gender     |
