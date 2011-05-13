@@ -6,7 +6,7 @@ Właściwość: typy kategorii gramatycznych, fleksyjnych, etc.
 
   Szablon scenariusza: typy fleksemów
     Jeżeli w słowniku występuje fleksem typu '<typ>'
-    Wtedy posiada ona oznaczenie '<oznaczenie>'
+    Wtedy posiada on oznaczenie '<oznaczenie>'
     Przykłady:
       | typ                                | oznaczenie |
       #-------------------------------------------------#
