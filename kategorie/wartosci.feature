@@ -76,7 +76,7 @@ Właściwość: wartości kategorii gramatycznych
       | dokonany    | aspekt    | perf       |
       | niedokonany | aspekt    | imperf     |
 
-  Szablon scenariusza: akcentowość (?)
+  Szablon scenariusza: akcentowość
     Jeżeli w słowniku występuje wartość kategorii fleksyjej '<wartosc>'
     Wtedy należy ona do kategorii fleksyjnej '<kategoria>'
     I posiada ona oznaczenie '<oznaczenie>'
@@ -85,7 +85,7 @@ Właściwość: wartości kategorii gramatycznych
       | akcentowana    | akcentowość | akc        |
       | nieakcentowana | akcentowość | nakc       |
 
-  Szablon scenariusza: poprzyimkowość (?)
+  Szablon scenariusza: poprzyimkowość
     Jeżeli w słowniku występuje wartość kategorii fleksyjej '<wartosc>'
     Wtedy należy ona do kategorii fleksyjnej '<kategoria>'
     I posiada ona oznaczenie '<oznaczenie>'
@@ -94,7 +94,7 @@ Właściwość: wartości kategorii gramatycznych
       | poprzyimkowa      | poprzyimkowość | pospraep   |
       | niepoprzyimkowa   | poprzyimkowość | npospraep  |
 
-  Szablon scenariusza: akomodacyjność (?)
+  Szablon scenariusza: akomodacyjność
     Jeżeli w słowniku występuje wartość kategorii fleksyjej '<wartosc>'
     Wtedy należy ona do kategorii fleksyjnej '<kategoria>'
     I posiada ona oznaczenie '<oznaczenie>'
@@ -103,7 +103,7 @@ Właściwość: wartości kategorii gramatycznych
       | uzgadniająca      | akomodacyjność | congr      |
       | rządząca          | akomodacyjność | rec        |
 
-  Szablon scenariusza: wokaliczność (?)
+  Szablon scenariusza: wokaliczność
     Jeżeli w słowniku występuje wartość kategorii fleksyjej '<wartosc>'
     Wtedy należy ona do kategorii fleksyjnej '<kategoria>'
     I posiada ona oznaczenie '<oznaczenie>'
