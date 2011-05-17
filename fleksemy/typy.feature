@@ -1,5 +1,5 @@
 # language: pl
-Właściwość: typy fleksemów 
+Właściwość: typy fleksemów
     cf. Wolinski (2004), Przepiórkowski (2004), Lubaszewski (2009)
     Kompletny słownik musi zawierać wiele typów fleksemów.
 
@@ -70,7 +70,7 @@ Właściwość: typy fleksemów
     Jeżeli w słowniku jest forma 'taki'
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'przymiotnik niestopniowalny'
-    
+
     # adja
     Jeżeli w słowniku jest forma 'polsko'
     I szukam dla niej fleksemów
@@ -113,7 +113,8 @@ Właściwość: typy fleksemów
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'zaimek zwrotny'
 
-    # TODO Sprawdzić różnice względem rzeczownika i przymiotnika
+    # odmienia się jak dwa rzeczowniki defaktywne - plurale tantum
+    # albo jak jeden liczebnik dwurodzajowy
     Jeżeli w słowniku jest forma 'tyluż'
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'zaimek dwurodzajowy'
@@ -160,7 +161,7 @@ Właściwość: typy fleksemów
     Jeżeli w słowniku jest forma 'czytaj'
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'rozkaźnik'
-     
+    
     # imps
     Jeżeli w słowniku jest forma 'czytano'
     I szukam dla niej fleksemów
@@ -223,7 +224,7 @@ Właściwość: typy fleksemów
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'spójnik'
 
-    # qub
+    # qub to samo co 'nieodmienny' w CLP
     Jeżeli w słowniku jest forma 'już'
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'kublik'
@@ -259,10 +260,6 @@ Właściwość: typy fleksemów
 
     # TODO Sprawdzić różnice względem kublika, ustalić na jakim
     # poziomie opisu pozostajemy: kublik vs. bardziej szczegółowe klasy
-    Jeżeli w słowniku jest forma 'zeń'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'nieodmienny'
-
     Jeżeli w słowniku jest forma 'żeby'
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'operator'
@@ -287,5 +284,5 @@ Właściwość: typy fleksemów
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'wykrzyknik'
 
-    # TODO - przejrzeć notatki w zeszycie, słowniki poprawnej 
+    # TODO - przejrzeć notatki w zeszycie, słowniki poprawnej
     # polszczyzny, itp.
