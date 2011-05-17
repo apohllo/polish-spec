@@ -14,7 +14,13 @@ Właściwość: typy kategorii gramatycznych, fleksyjnych, etc.
       | rzeczownik deprecjatywny           | depr       |
       | rzeczownik defektywny              | sdef       |
       | ciało obce nominalne               | xxs        |
-      # TODO fleksemy liczebnikowe
+      | liczebnik dwurodzajowy             | num        |
+      | liczebnik zbiorowy                 | numcol     |
+      | liczebnik jednorodzajowy           | numsgen    |
+      | liczebnik wielorodzajowy           | nummgen    |
+      | liczebnik nieodmienny              | numdef     |
+      | liczebnik nieokreślony             | numind     |
+      | liczba                             | numnum     |
       | przymiotnik                        | adj        |
       | przymiotnik niestopniowalny        | adjng      |
       | przymiotnik przyprzymiotnikowy     | adja       |
@@ -22,7 +28,13 @@ Właściwość: typy kategorii gramatycznych, fleksyjnych, etc.
       | przymiotnik nieodmienny            | adjdef     |
       | przysłówek                         | adv        |
       | przysłówek nieodmienny             | advdef     |
-      # TODO fleksemy zaimkowe
+      | zaimek bezrodzajowy                | ppron12    |
+      | zaimek trzecioosobowy              | ppron3     |
+      | zaimek zwrotny                     | siebie     |
+      | zaimek dwurodzajowy                | pronbgen   |
+      | zaimek nieodmienny                 | prondef    |
+      | zaimek nieosobowy                  | npron      |
+      | zaimek osobowy                     | ppron      |
       | forma nieprzeszła                  | fin        |
       | forma przyszła czasownika BYĆ      | bedzie     |
       | aglutynant czasownika BYĆ          | aglt       |
@@ -39,7 +51,21 @@ Właściwość: typy kategorii gramatycznych, fleksyjnych, etc.
       | czasownik imperatywny              | imptdef    |
       | czasownik analityczny              | anl        |
       | czasownik nieosobowy               | impsdef    |
-      # TODO fleksemy nieodmienne
+      | przyimek                           | prep       |
+      | spójnik                            | conj       |
+      | kublik                             | qub        |
+      | ciało obce luźne                   | xxx        |
+      | forma nierozpoznana                | ign        |
+      | znak interpunkcyjny                | interp     |
+      | skrót                              | brev       |
+      | dopowiedzenie                      | appos      |
+      | modalizator                        | mod        |
+      | operator                           | oper       |
+      | paraprzysłówek                     | paprep     |
+      | partykuła                          | part       |
+      | przyliczebnik                      | adnum      |
+      | przywyrazek                        | adver      |
+      | wykrzyknik                         | interj     |
 
   Szablon scenariusza: kategorie gramatyczne
     Jeżeli w słowniku występuje kategoria gramatycza '<kategoria>'
