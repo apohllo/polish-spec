@@ -63,8 +63,8 @@ Właściwość: typy kategorii gramatycznych, fleksyjnych, etc.
       | operator                           | oper       |
       | paraprzysłówek                     | paprep     |
       | partykuła                          | part       |
-      | przyliczebnik                      | adnum      |
-      | przywyrazek                        | adpart     |
+      | przyliczebnik                      | prenum     |
+      | przywyrazek                        | prepart    |
       | wykrzyknik                         | interj     |
 
   Szablon scenariusza: kategorie gramatyczne
