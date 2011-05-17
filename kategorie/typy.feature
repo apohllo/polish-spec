@@ -33,7 +33,7 @@ Właściwość: typy kategorii gramatycznych, fleksyjnych, etc.
       | zaimek zwrotny                     | siebie     |
       | zaimek dwurodzajowy                | pronbgen   |
       | zaimek nieodmienny                 | prondef    |
-      | zaimek nieosobowy                  | npron      |
+      | zaimek nieosobowy                  | imppron    |
       | zaimek osobowy                     | ppron      |
       | forma nieprzeszła                  | fin        |
       | forma przyszła czasownika BYĆ      | bedzie     |
