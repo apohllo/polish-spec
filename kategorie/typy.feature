@@ -64,7 +64,7 @@ Właściwość: typy kategorii gramatycznych, fleksyjnych, etc.
       | paraprzysłówek                     | paprep     |
       | partykuła                          | part       |
       | przyliczebnik                      | adnum      |
-      | przywyrazek                        | adver      |
+      | przywyrazek                        | adpart     |
       | wykrzyknik                         | interj     |
 
   Szablon scenariusza: kategorie gramatyczne
