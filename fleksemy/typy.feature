@@ -101,21 +101,12 @@ Właściwość: typy fleksemów
     # ppron12, CLP: zaimek bezrodzajowy
     Jeżeli w słowniku jest forma 'ja'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'zaimek nietrzecioosobowy akcentowany' lub fleksem typu 'zaimek nietrzecioosobowy' lub fleksem typu 'zaimek bezrodzajowy'
-
-    Jeżeli w słowniku jest forma 'wy'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'zaimek nietrzecioosobowy nieakcentowany' lub fleksem typu 'zaimek nietrzecioosobowy' lub fleksem typu 'zaimek bezrodzajowy'
+    Wtedy znajduję fleksem typu 'zaimek bezrodzajowy'
 
     # ppron3, CLP: zaimek męski osobowy, etc.
     Jeżeli w słowniku jest forma 'on'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'zaimek trzecioosobowy akcentowany'
-
-    # ppron3, CLP: zaimek męski osobowy, etc.
-    Jeżeli w słowniku jest forma 'ona'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'zaimek trzecioosobowy nieakcentowany'
+    Wtedy znajduję fleksem typu 'zaimek trzecioosobowy'
 
     # siebie
     Jeżeli w słowniku jest forma 'siebie'
