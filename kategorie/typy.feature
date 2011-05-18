@@ -77,3 +77,4 @@ Właściwość: typy kategorii gramatycznych, fleksyjnych, etc.
       | aglutynacyjność | agglut     |
       | wokaliczność    | vocal      |
       | kasztowość      | lcase      |
+      | czas            | tense      |

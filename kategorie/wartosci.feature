@@ -7,8 +7,8 @@ Właściwość: wartości kategorii gramatycznych
     Zakładając że kodowanie ustawione jest na 'utf-8'
 
   Szablon scenariusza: przypadki
-    Jeżeli w słowniku występuje wartość kategorii fleksyjej '<wartosc>'
-    Wtedy należy ona do kategorii fleksyjnej '<kategoria>'
+    Jeżeli w słowniku występuje wartość kategorii gramatycznej '<wartosc>'
+    Wtedy należy ona do kategorii gramatycznej '<kategoria>'
     I posiada ona oznaczenie '<oznaczenie>'
     Przykłady:
       | wartosc     | kategoria | oznaczenie |
@@ -21,8 +21,8 @@ Właściwość: wartości kategorii gramatycznych
       | wołacz      | przypadek | voc        |
 
   Szablon scenariusza: rodzaje
-    Jeżeli w słowniku występuje wartość kategorii fleksyjej '<wartosc>'
-    Wtedy należy ona do kategorii fleksyjnej '<kategoria>'
+    Jeżeli w słowniku występuje wartość kategorii gramatycznej '<wartosc>'
+    Wtedy należy ona do kategorii gramatycznej '<kategoria>'
     I posiada ona oznaczenie '<oznaczenie>'
     Przykłady:
       | wartosc           | kategoria | oznaczenie |
@@ -37,8 +37,8 @@ Właściwość: wartości kategorii gramatycznych
       | przymnogi opisowy | rodzaj    | p3         |
 
   Szablon scenariusza: liczby
-    Jeżeli w słowniku występuje wartość kategorii fleksyjej '<wartosc>'
-    Wtedy należy ona do kategorii fleksyjnej '<kategoria>'
+    Jeżeli w słowniku występuje wartość kategorii gramatycznej '<wartosc>'
+    Wtedy należy ona do kategorii gramatycznej '<kategoria>'
     I posiada ona oznaczenie '<oznaczenie>'
     Przykłady:
       | wartosc    | kategoria | oznaczenie |
@@ -46,8 +46,8 @@ Właściwość: wartości kategorii gramatycznych
       | mnoga      | liczba    | pl         |
 
   Szablon scenariusza: osoby
-    Jeżeli w słowniku występuje wartość kategorii fleksyjej '<wartosc>'
-    Wtedy należy ona do kategorii fleksyjnej '<kategoria>'
+    Jeżeli w słowniku występuje wartość kategorii gramatycznej '<wartosc>'
+    Wtedy należy ona do kategorii gramatycznej '<kategoria>'
     I posiada ona oznaczenie '<oznaczenie>'
     Przykłady:
       | wartosc    | kategoria | oznaczenie |
@@ -56,8 +56,8 @@ Właściwość: wartości kategorii gramatycznych
       | trzecia    | osoba     | ter        |
 
   Szablon scenariusza: stopnie
-    Jeżeli w słowniku występuje wartość kategorii fleksyjej '<wartosc>'
-    Wtedy należy ona do kategorii fleksyjnej '<kategoria>'
+    Jeżeli w słowniku występuje wartość kategorii gramatycznej '<wartosc>'
+    Wtedy należy ona do kategorii gramatycznej '<kategoria>'
     I posiada ona oznaczenie '<oznaczenie>'
     Przykłady:
       | wartosc    | kategoria | oznaczenie |
@@ -68,8 +68,8 @@ Właściwość: wartości kategorii gramatycznych
       | najwyższy  | stopień   | sup        |
 
   Szablon scenariusza: aspekty
-    Jeżeli w słowniku występuje wartość kategorii fleksyjej '<wartosc>'
-    Wtedy należy ona do kategorii fleksyjnej '<kategoria>'
+    Jeżeli w słowniku występuje wartość kategorii gramatycznej '<wartosc>'
+    Wtedy należy ona do kategorii gramatycznej '<kategoria>'
     I posiada ona oznaczenie '<oznaczenie>'
     Przykłady:
       | wartosc     | kategoria | oznaczenie |
@@ -77,8 +77,8 @@ Właściwość: wartości kategorii gramatycznych
       | niedokonany | aspekt    | imperf     |
 
   Szablon scenariusza: akcentowość
-    Jeżeli w słowniku występuje wartość kategorii fleksyjej '<wartosc>'
-    Wtedy należy ona do kategorii fleksyjnej '<kategoria>'
+    Jeżeli w słowniku występuje wartość kategorii gramatycznej '<wartosc>'
+    Wtedy należy ona do kategorii gramatycznej '<kategoria>'
     I posiada ona oznaczenie '<oznaczenie>'
     Przykłady:
       | wartosc        | kategoria   | oznaczenie |
@@ -86,8 +86,8 @@ Właściwość: wartości kategorii gramatycznych
       | nieakcentowana | akcentowość | nakc       |
 
   Szablon scenariusza: poprzyimkowość
-    Jeżeli w słowniku występuje wartość kategorii fleksyjej '<wartosc>'
-    Wtedy należy ona do kategorii fleksyjnej '<kategoria>'
+    Jeżeli w słowniku występuje wartość kategorii gramatycznej '<wartosc>'
+    Wtedy należy ona do kategorii gramatycznej '<kategoria>'
     I posiada ona oznaczenie '<oznaczenie>'
     Przykłady:
       | wartosc           | kategoria      | oznaczenie |
@@ -95,8 +95,8 @@ Właściwość: wartości kategorii gramatycznych
       | niepoprzyimkowa   | poprzyimkowość | npospraep  |
 
   Szablon scenariusza: akomodacyjność
-    Jeżeli w słowniku występuje wartość kategorii fleksyjej '<wartosc>'
-    Wtedy należy ona do kategorii fleksyjnej '<kategoria>'
+    Jeżeli w słowniku występuje wartość kategorii gramatycznej '<wartosc>'
+    Wtedy należy ona do kategorii gramatycznej '<kategoria>'
     I posiada ona oznaczenie '<oznaczenie>'
     Przykłady:
       | wartosc           | kategoria      | oznaczenie |
@@ -104,11 +104,20 @@ Właściwość: wartości kategorii gramatycznych
       | rządząca          | akomodacyjność | rec        |
 
   Szablon scenariusza: wokaliczność
-    Jeżeli w słowniku występuje wartość kategorii fleksyjej '<wartosc>'
-    Wtedy należy ona do kategorii fleksyjnej '<kategoria>'
+    Jeżeli w słowniku występuje wartość kategorii gramatycznej '<wartosc>'
+    Wtedy należy ona do kategorii gramatycznej '<kategoria>'
     I posiada ona oznaczenie '<oznaczenie>'
     Przykłady:
       | wartosc           | kategoria      | oznaczenie |
       | wokaliczna        | wokaliczność   | wok        |
       | niewokaliczna     | wokaliczność   | nwok       |
      
+  Szablon scenariusza: czas
+    Jeżeli w słowniku występuje wartość kategorii gramatycznej '<wartosc>'
+    Wtedy należy ona do kategorii gramatycznej '<kategoria>'
+    I posiada ona oznaczenie '<oznaczenie>'
+    Przykłady:
+      | wartosc      | kategoria | oznaczenie |
+      | teraźniejszy | czas      | present    |
+      | przeszły     | czas      | past       |
+      | przyszły     | czas      | future     |
