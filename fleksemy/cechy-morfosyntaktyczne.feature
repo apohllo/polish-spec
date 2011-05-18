@@ -164,37 +164,23 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Wtedy posiada on stopień równy
 
   Scenariusz: fleksemy zaimkowe
-    Jeżeli w słowniku jest fleksem typu 'zaimek nietrzecioosobowy akcentowany'
-    Wtedy posiada on liczbę pojedynczą
-    I posiada on określoną osobę
-    # Odmiana (? raczej ustalona wartość) przez rodzaj
-    # jest cechą ściśle syntaktyczną, a nie morfosyntaktyczną
-    #I odmienia się przez rodzaj
-    I odmienia się przez przypadki
-    I odmienia się defektywnie przez akcentowość
-
-    Jeżeli w słowniku jest fleksem typu 'zaimek nietrzecioosobowy nieakcentowany'
+    Jeżeli w słowniku jest fleksem typu 'zaimek bezrodzajowy'
     Wtedy posiada on określoną liczbę
     I posiada on określoną osobę
-    # J.w.
-    #I odmienia się przez rodzaj
     I odmienia się przez przypadki
+    # Na poziomie fleksemów odróżniamy fleksem ja - mnie od fleksemu ja - mi
+    # Fleksemy te będą przynależeć do jednego leksemu.
+    I posiada on określoną akcentowość
 
-    Jeżeli w słowniku jest fleksem typu 'zaimek trzecioosobowy akcentowany'
+    Jeżeli w słowniku jest fleksem typu 'zaimek trzecioosobowy'
     Wtedy posiada on trzecią osobę
-    I posiada on liczbę pojedynczą
-    # Właściwie posiada po prostu rodzaj męski
-    I posiada on rodzaj męski osobowy
-    I odmienia się przez przypadki
-    I odmienia się defektywnie przez akcentowość
-    I odmienia się defektywnie przez poprzyimkowość
-
-    Jeżeli w słowniku jest fleksem typu 'zaimek trzecioosobowy nieakcentowany'
-    Wtedy posiada on trzecią osobę
-    I posiada on ustalony rodzaj
     I odmienia się przez liczbę
+    I posiada on ustalony rodzaj
     I odmienia się przez przypadki
-    I odmienia się defektywnie przez poprzyimkowość
+    # Na poziomie fleksemów odróżniamy fleksem on - jego od fleksemu on - go
+    I posiada on określoną poprzyimkowość
+    # Na poziomie fleksemów odróżniamy fleksem on - jemu od fleksemu on - mu
+    I posiada on określoną akcentowość
 
     Jeżeli w słowniku jest fleksem typu 'zaimek zwrotny'
     Wtedy odmienia się przez przypadki: dopełniacz, celownik, biernik, narzędnik i miejscownik
@@ -212,7 +198,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Wtedy jest on nieodmienny
 
     Jeżeli w słowniku jest fleksem typu 'zaimek nieosobowy'
-    # jak rzeczownik deprecjatywny, ale ma konkretną liczbę (pojedynczą) i rodzaj (nijaki)
+    # jak rzeczownik defektywny, ale ma konkretną liczbę (pojedynczą) i rodzaj (nijaki)
     Wtedy posiada on liczbę pojedynczą
     I posiada on rodzaj nijaki
     I odmienia się przez przypadki
@@ -268,6 +254,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I posiada on ustalony aspekt
     # Fleksem ten nie odmienia się przez aglutynacyjność, gdyż jest to jego cecha
     # stricte syntaktyczna.
+    # TODO przemyśleć powyższe
     #I odmienia się przez aglutynacyjność
 
     Jeżeli w słowniku jest fleksem typu 'rozkaźnik'
@@ -334,3 +321,28 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
   Scenariusz: fleksemy niedomienne
     #TODO - ogólnie wszystkie są nieodmienne,
     #dodatkowo przypimki rządzą określonymi przypadkami
+    Jeżeli w słowniku jest fleksem typu 'przyimek'
+    Wtedy rządzi on określonymi przypadkami
+    I jest on nieodmienny
+
+    Jeżeli w słowniku jest fleksem typu 'spójnik'
+    Wtedy jest on nieodmienny
+
+    Jeżeli w słowniku jest fleksem typu 'kublik'
+    Wtedy jest on nieodmienny
+
+    Jeżeli w słowniku jest fleksem typu 'ciało obce luźne'
+    Wtedy jest on nieodmienny
+
+    Jeżeli w słowniku jest fleksem typu 'forma nierozpoznana'
+    Wtedy jest on nieodmienny
+
+    Jeżeli w słowniku jest fleksem typu 'znak interpunkcyjny'
+    Wtedy jest on nieodmienny
+
+    # Skróty i skrótowce są bardzo złożoną klasą, która może
+    # się odmieniać dr vs dr. vs dra. Obecnie zakładamy jednak,
+    # że są nieodmienne i posiadają ustaloną wartość 'kropki'.
+    Jeżeli w słowniku jest fleksem typu 'skrót'
+    Wtedy posiada on ustaloną wartość kropki
+    I jest on nieodmienny
