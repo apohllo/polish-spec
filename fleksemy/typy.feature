@@ -45,7 +45,7 @@ Właściwość: typy fleksemów
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'liczebnik jednorodzajowy'
 
-    Jeżeli w słowniku jest forma 'obydwie'
+    Jeżeli w słowniku jest forma 'obywaj'
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'liczebnik wielorodzajowy'
 
