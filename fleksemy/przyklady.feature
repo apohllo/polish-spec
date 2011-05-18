@@ -120,27 +120,6 @@ Właściwość: przykłady cech morfologicznych i morfosyntaktycznych fleksemów
     rodzaj nijaki i "zewnętrzną" liczbę pojedynczą.
 
     Jeżeli w słowniku jest forma '<forma>'
-    I istnieje dla niej fleksem typu 'liczebnik zbiorowy'
-    Wtedy dla tej formy posiada on przypadek '<przypadek>'
-    I posiada on akomodacyjność '<akomodacyjnosc>'
-    Przykłady:
-      | forma       | przypadek   | akomodacyjnosc |
-      | troje       | mianownik   | rządząca       |
-      | trojga      | dopełniacz  | rządząca       |
-      | trojgu      | celownik    | uzgadniająca   |
-      | troje       | biernik     | rządząca       |
-      | trojgiem    | narzędnik   | rządząca       |
-      | trojgu      | miejscownik | uzgadniająca   |
-      | troje       | wołacz      | rządząca       |
-      | pięcioro    | mianownik   | rządząca       |
-      | pięciorga   | dopełniacz  | rządząca       |
-      | pięciorgu   | celownik    | uzgadniająca   |
-      | pięcioro    | biernik     | rządząca       |
-      | pięciorgiem | narzędnik   | rządząca       |
-      | pięciorgu   | miejscownik | uzgadniająca   |
-      | pięcioro    | wołacz      | rządząca       |
-
-    Jeżeli w słowniku jest forma '<forma>'
     I istnieje dla niej fleksem typu 'liczebnik dwurodzajowy'
     Wtedy dla tej formy posiada on rodzaj '<rodzaj>'
     I dla tej formy posiada on przypadek '<przypadek>'
@@ -161,6 +140,27 @@ Właściwość: przykłady cech morfologicznych i morfosyntaktycznych fleksemów
       | pięciu   | niemęskoosobowy | narzędnik   | uzgadniająca   |
       | pięciu   | niemęskoosobowy | miejscownik | uzgadniająca   |
       | pięć     | niemęskoosobowy | wołacz      | rządząca       |
+
+    Jeżeli w słowniku jest forma '<forma>'
+    I istnieje dla niej fleksem typu 'liczebnik zbiorowy'
+    Wtedy dla tej formy posiada on przypadek '<przypadek>'
+    I posiada on akomodacyjność '<akomodacyjnosc>'
+    Przykłady:
+      | forma       | przypadek   | akomodacyjnosc |
+      | troje       | mianownik   | rządząca       |
+      | trojga      | dopełniacz  | rządząca       |
+      | trojgu      | celownik    | uzgadniająca   |
+      | troje       | biernik     | rządząca       |
+      | trojgiem    | narzędnik   | rządząca       |
+      | trojgu      | miejscownik | uzgadniająca   |
+      | troje       | wołacz      | rządząca       |
+      | pięcioro    | mianownik   | rządząca       |
+      | pięciorga   | dopełniacz  | rządząca       |
+      | pięciorgu   | celownik    | uzgadniająca   |
+      | pięcioro    | biernik     | rządząca       |
+      | pięciorgiem | narzędnik   | rządząca       |
+      | pięciorgu   | miejscownik | uzgadniająca   |
+      | pięcioro    | wołacz      | rządząca       |
 
     Jeżeli w słowniku jest forma '<forma>'
     I istnieje dla niej fleksem typu 'liczebnik jednorodzajowy'
