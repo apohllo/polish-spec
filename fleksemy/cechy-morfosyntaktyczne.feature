@@ -6,9 +6,19 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     i Przepiórkowskiego - idąc jednak bardziej konsekwentnie w stosowaniu
     zaproponowanej przez nich definicji. W szczególności cechy stricte
     syntaktyczne (np. rodzaj zaimka osobowego 'ja'), czyli cechy nieróżnicujące
-    fleksemów morfologicznie (niegenerujące odmiennych form)
+    fleksemy morfologicznie (niegenerujące odmiennych form)
     nie są uznawane za ich cechy gramatyczne w ramach danej klasy fleksyjnej.
     Stąd różnice w stosunku do tablic odmiany przedstawionych w ich pracach.
+    Dodatkowa różnica polega na wprowadzeniu terminu 'pozycja fleksyjna',
+    którą określamy jako określoną kombinację wartości niezależnych
+    kategorii gramatycznych, dla której forma, w ogólnym przypadku,
+    może być różna od form zajmujących pozostałe pozycje fleksyjne.
+    Np. zwykły rzeczownik posiada 14 pozycji fleksyjnych, ponieważ
+    może odmieniać się przez 2 liczby * 7 przypadków = 14.
+    Wymagamy aby wszystkie fleksemy w określonej klasie fleksyjnej
+    posiadały dokładnie taką samą liczbę pozycji fleksyjnych.
+    (Założenie to będzie jednak podlegało weryfikacji).
+
   Założenia:
     Zakładając że kodowanie ustawione jest na 'utf-8'
   # rzeczowniki
@@ -25,46 +35,34 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I posiada on ustaloną kasztowość
     I posiada on liczbę mnogą
     I odmienia się przez przypadki: mianownik i wołacz
-
-    #Jeżeli w słowniku jest fleksem typu 'rzeczownik nieodmienny'
-    #Wtedy posiada on ustalony rodzaj
-    #I posiada on ustaloną kasztowość
-    #I posiada on ustaloną liczbę
-    #I we wszystkich przypadkach występuje w formie podstawowej
-
-    Jeżeli w słowniku jest fleksem typu 'rzeczownik plurale tantum'
-    Wtedy posiada on ustalony rodzaj
-    I posiada on ustaloną kasztowość
-    I posiada on liczbę mnogą
-    I odmienia się przez przypadki
-
-    Jeżeli w słowniku jest fleksem typu 'rzeczownik singulare tantum'
-    Wtedy posiada on ustalony rodzaj
-    I posiada on ustaloną kasztowość
-    I posiada on liczbę pojedynczą
-    I odmienia się przez przypadki
+    I posiada 2 pozycje fleksyjne
 
     Jeżeli w słowniku jest fleksem typu 'rzeczownik defektywny'
     Wtedy posiada on ustalony rodzaj
     I posiada on ustaloną kasztowość
     I posiada on ustaloną liczbę
     I odmienia się przez przypadki
+    I posiada 7 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'ciało obce nominalne'
     Wtedy posiada on ustalony rodzaj
     I posiada on ustaloną kasztowość
     I odmienia się przez przypadki
     I odmienia się przez liczby
+    I posiada 14 pozycji fleksyjnych
 
   # liczebniki
   Scenariusz: fleksemy liczebnikowe
-    Jeżeli w słowniku jest fleksem typu 'liczebnik główny'
-    Wtedy posiada on ustaloną liczbę
+    Jeżeli w słowniku jest fleksem typu 'liczebnik dwurodzajowy'
+    Wtedy posiada on liczbę mnogą
     I odmienia się przez rodzaje
     I odmienia się przez przypadki
     I odmienia się defektywnie przez akomodacyjność
+    # XXX uwzględnić defektywną akomodacyjność
+    # lub rozbicie na warianty z odmienną akomodacyjnością
+    I posiada 14 pozycji fleksyjnych
 
-    # Liczebnik bezrodzajowy
+    # Liczebnik zbiorowy, bezrodzajowy
     # Liczba rodzajów oznacza liczbę możliwych odmian danego liczebnika,
     # czyli wyróżnione rodzaje liczebnika z którymi łączą się wyróżnione
     # rodzaje podrzędnej frazy nominalnej. Bezrodzajowść oznacza, że
@@ -80,33 +78,30 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     # Trzy okna...
     #
     # Liczba oznacza liczbę wymaganą dla podrzędnej frazy nominalnej.
-    # W związkach z czasownikami liczebnik o akomodacyjności rządzącej
+    # W związkach z rzeczownikami liczebnik o akomodacyjności rządzącej
     # zawsze (?) wymaga rodzaju nijakiego i liczby pojedynczej.
     Wtedy posiada on liczbę mnogą
     I nie posiada rodzaju
     I odmienia się przez przypadki
     I dla każdej formy posiada on określoną akomodacyjność
-
-    Jeżeli w słowniku jest fleksem typu 'liczebnik dwurodzajowy'
-    Wtedy posiada on liczbę mnogą
-    I odmienia się przez rodzaje
-    I odmienia się przez przypadki
-    I odmienia się defektywnie przez akomodacyjność
+    I posiada 7 pozycji fleksyjnych
 
     # Zasadniczo jak rzeczownik (odmienia się przez liczby i przypadki,
     # posiada ustalony rodzaj, wymaga rzeczownika w dopełniaczu)
     # z tym, że wymagany rzeczownik musi być w liczbie mnogiej i ta
-    # składniowa odmienność może być uznana za ceche dystynktywną.
+    # składniowa odmienność może być uznana za cechę dystynktywną.
     Jeżeli w słowniku jest fleksem typu 'liczebnik jednorodzajowy'
     Wtedy odmienia się przez liczbę
-    I posiada on rodzaj męski nieżywotny
     I odmienia się przez przypadki
+    I posiada on rodzaj męski nieżywotny
     I posiada akomodacyjność rządzącą
+    I posiada 14 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'liczebnik wielorodzajowy'
     Wtedy odmienia się przez rodzaje
     I odmienia się przez przypadki
     I odmienia się defektywnie przez akomodacyjność
+    I posiada 28 pozycji fleksyjnych
 
     # Liczebnik ten tym różni się od dwurodzajowego, że jego
     # wartość jest nieokreślona, dlatego nie może być stowarzyszony
@@ -118,16 +113,15 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I odmienia się przez rodzaje
     I odmienia się przez przypadki
     I odmienia się defektywnie przez akomodacyjność
+    I posiada 14 pozycji fleksyjnych
 
     # Odmienia się jak rzeczownik nieodmienny, z zastrzeżeniem, że
-    # może występować tylko w mianowniku, dopełniaczu i bierniku
+    # może występować (łączyć się z rzeczownikiem) tylko w mianowniku,
+    # dopełniaczu i bierniku.
     # W zasadzie w swojej charakterystyce jest bardzo podobny do
     # przysłówka.
     Jeżeli w słowniku jest fleksem typu 'liczebnik nieodmienny'
-    Wtedy we wszystkich rodzajach występuje w formie podstawowej
-    I we wszystkich liczbach występuje w formie podstawowej
-    I odmienia się przez przypadki: mianownik, dopełniacza i biernika
-    I we wszystkich przypadkach występuje w formie podstawowej
+    Wtedy jest on nieodmienny
 
 
     # Kanoniczna postać liczebnika określonego.
@@ -140,12 +134,15 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I odmienia się przez rodzaje
     I odmienia się przez przypadki
     I odmienia się przez stopnie
+    # 6 * 7 * 3
+    I posiada 126 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'przymiotnik niestopniowalny'
     Wtedy posiada on stopień równy
     I odmienia się przez liczbę
     I odmienia się przez rodzaje
     I odmienia się przez przypadki
+    I posiada 42 pozycje fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'przymiotnik przyprzymiotnikowy'
     Wtedy jest on nieodmienny
@@ -159,9 +156,11 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
   Scenariusz: fleksemy przysłówkowe
     Jeżeli w słowniku jest fleksem typu 'przysłówek'
     Wtedy jest on stopniowalny
+    I posiada 3 pozycje fleksyjne
 
     Jeżeli w słowniku jest fleksem typu 'przysłówek nieodmienny'
     Wtedy posiada on stopień równy
+    I jest on nieodmienny
 
   Scenariusz: fleksemy zaimkowe
     Jeżeli w słowniku jest fleksem typu 'zaimek bezrodzajowy'
@@ -171,6 +170,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     # Na poziomie fleksemów odróżniamy fleksem ja - mnie od fleksemu ja - mi
     # Fleksemy te będą przynależeć do jednego leksemu.
     I posiada on określoną akcentowość
+    I posiada 7 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'zaimek trzecioosobowy'
     Wtedy posiada on trzecią osobę
@@ -181,10 +181,12 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I posiada on określoną poprzyimkowość
     # Na poziomie fleksemów odróżniamy fleksem on - jemu od fleksemu on - mu
     I posiada on określoną akcentowość
+    I posiada 14 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'zaimek zwrotny'
     Wtedy odmienia się przez przypadki: dopełniacz, celownik, biernik, narzędnik i miejscownik
     I posiada liczbę pojedynczą
+    I posiada 5 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'zaimek dwurodzajowy'
     # jak rzeczownik defektywny - jeśli tyle i tylu są osobnymi fleksemami
@@ -192,6 +194,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Wtedy posiada on liczbę mnogą
     I posiada on ustalony rodzaj
     I odmienia się przez przypadki
+    I posiada 7 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'zaimek nieodmienny'
     # jak inne nieodmienne
@@ -202,12 +205,14 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Wtedy posiada on liczbę pojedynczą
     I posiada on rodzaj nijaki
     I odmienia się przez przypadki
+    I posiada 7 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'zaimek osobowy'
     # j.w.
     Wtedy posiada on liczbę pojedynczą
     I posiada on rodzaj męski osobowy
     I odmienia się przez przypadki
+    I posiada 7 pozycji fleksyjnych
 
   Scenariusz: fleksemy czasownikowe
     Jeżeli w słowniku jest fleksem typu 'forma nieprzeszła'
@@ -218,32 +223,36 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     #   robi - czas teraźniejszy
     #   zrobi - czas przyszły
     #   robił - brak określonego czasu (np. robił - czas przeszły,
-    #     robił-by-ś - czas przyszły)
+    #     robił-by-ś - tryb przypuszczający - czas nieokreślony)
     #   zrobił - brak określonego czasu (np. zrobił - czas przeszły,
-    #     zrobił-by-ś - czas przyszły)
+    #     zrobił-by-ś - tryb przypuszczający - czas nieokreślony)
     I posiada on ustalony czas
     I posiada on ustalony aspekt
     I posiada on tryb oznajmujący
+    I posiada 6 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'forma przyszła czasownika BYĆ'
-    # (?) różnica względem formy nieprzeszłej jest tylko w dystrybucji
     Wtedy odmienia się przez liczbę
-    # tylko pierwsza i druga osoba
-    I odmienia się defektywnie przez osoby
+    I odmienia się przez osoby
     I posiada on czas przyszły
     I posiada on aspekt niedokonany
     I posiada on tryb oznajmujący
+    I posiada 6 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'aglutynant czasownika BYĆ'
-    Wtedy odmienia się przez osoby
+    Wtedy odmienia się przez osoby: pierwszą i drugą
+    I odmienia się przez liczbę
     I odmienia się przez wokaliczność
-    # Aspekt aglutynantu BYĆ nie jest cecha morfologiczną, lecz stricte syntaktyczną.
+    # Aspekt aglutynantu BYĆ nie jest cechą morfologiczną, lecz stricte syntaktyczną.
     # Powinien być raczej przypisany leksemowi, którego ten aglutynant jest składnikiem.
     #I posiada określony aspekt
+    # TODO zweryfikować liczbę pozycji fleksyjnych
+    I posiada 8 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'aglutynant trybu przypuszczającego'
     Wtedy jest on nieodmienny
     I posiada on tryb przypuszczający
+    # I odmienia się przez aglutynacyjność: byś zrobił to - zrobił-byś to
 
     # TODO wprowadzić domyślne wartości pewnych cech gramatycznych,
     # np. domyślnie pseudoimiesłów jest w 3 osobie, ma tryb oznajmujący i
@@ -256,12 +265,14 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     # stricte syntaktyczna.
     # TODO przemyśleć powyższe
     #I odmienia się przez aglutynacyjność
+    I posiada 5 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'rozkaźnik'
     Wtedy odmienia się przez liczbę
     I odmienia się defektywnie przez osoby
     I posiada on ustalony aspekt
     I posiada on tryb rozkazujący
+    I posiada 3 pozycje fleksyjne
 
     Jeżeli w słowniku jest fleksem typu 'bezosobnik'
     Wtedy jest on nieodmienny
@@ -288,28 +299,31 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     # nie odmieniają się przez zanegowanie
     #I odmienia się przez zanegowanie
     I posiada on aspekt niedokonany
+    I posiada 42 pozycje fleksyjne
 
     Jeżeli w słowniku jest fleksem typu 'imiesłów przymiotnikowy bierny'
     Wtedy odmienia się przez liczbę
-    I odmienia się przez przypadek
-    I odmienia się przez rodzaj
+    I odmienia się przez rodzaje
+    I odmienia się przez przypadki
     # jw. - nie to aglutynant
     #I odmienia się przez zanegowanie
     I posiada on ustalony aspekt
+    I posiada 42 pozycje fleksyjne
 
     Jeżeli w słowniku jest fleksem typu 'odsłownik'
     Wtedy odmienia się przez liczbę
-    I odmienia się przez przypadek
+    I odmienia się przez przypadki
     # jw.
     #I odmienia się przez zanegowanie
     I posiada on rodzaj nijaki
     I posiada on ustalony aspekt
+    I posiada 14 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'czasownik imperatywny'
     Wtedy odmienia się przez liczbę
     I odmienia się przez rodzaje
-    I odmienia się przez osoby
     I posiada on ustalony aspekt
+    I posiada 5 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'czasownik analityczny'
     Wtedy jest on nieodmienny
@@ -317,6 +331,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Jeżeli w słowniku jest fleksem typu 'czasownik nieosobowy'
     Wtedy posiada on jedną formę czasu przeszłego
     I posiada on jedną formę czasu teraźniejszego
+    I posiada 2 pozycje fleksyjne
 
   Scenariusz: fleksemy niedomienne
     #TODO - ogólnie wszystkie są nieodmienne,
