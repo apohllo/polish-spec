@@ -39,7 +39,7 @@ Właściwość: typy fleksemów
     # numcol, CLP: liczebnik bezrodzajowy
     Jeżeli w słowniku jest forma 'pięcioro'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'liczbenik zbiorowy'
+    Wtedy znajduję fleksem typu 'liczebnik zbiorowy'
 
     Jeżeli w słowniku jest forma 'tysiąc'
     I szukam dla niej fleksemów
@@ -245,6 +245,6 @@ Właściwość: typy fleksemów
     Wtedy znajduję fleksem typu 'znak interpunkcyjny'
 
     # brev
-    Jeżeli w słowniku jest forma 'itp.'
+    Jeżeli w słowniku jest forma 'itp'
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'skrót'
