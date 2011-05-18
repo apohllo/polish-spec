@@ -229,7 +229,6 @@ Właściwość: typy fleksemów
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'kublik'
 
-
     # xxx
     Jeżeli w słowniku jest forma 'foreign'
     I szukam dla niej fleksemów
@@ -249,40 +248,3 @@ Właściwość: typy fleksemów
     Jeżeli w słowniku jest forma 'itp.'
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'skrót'
-
-    Jeżeli w słowniku jest forma 'wykluczone'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'dopowiedzenie'
-
-    Jeżeli w słowniku jest forma 'że'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'modalizator'
-
-    # TODO Sprawdzić różnice względem kublika, ustalić na jakim
-    # poziomie opisu pozostajemy: kublik vs. bardziej szczegółowe klasy
-    Jeżeli w słowniku jest forma 'żeby'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'operator'
-
-    Jeżeli w słowniku jest forma 'zgoła'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'paraprzysłówek'
-
-    Jeżeli w słowniku jest forma 'zwłaszcza'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'partykuła'
-
-    Jeżeli w słowniku jest forma 'ze'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'przyliczebnik'
-
-    Jeżeli w słowniku jest forma 'tuż'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'przywyrazek'
-
-    Jeżeli w słowniku jest forma 'wyczha'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'wykrzyknik'
-
-    # TODO - przejrzeć notatki w zeszycie, słowniki poprawnej
-    # polszczyzny, itp.

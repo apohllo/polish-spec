@@ -58,14 +58,6 @@ Właściwość: typy kategorii gramatycznych, fleksyjnych, etc.
       | forma nierozpoznana                | ign        |
       | znak interpunkcyjny                | interp     |
       | skrót                              | brev       |
-      | dopowiedzenie                      | appos      |
-      | modalizator                        | mod        |
-      | operator                           | oper       |
-      | paraprzysłówek                     | paprep     |
-      | partykuła                          | part       |
-      | przyliczebnik                      | prenum     |
-      | przywyrazek                        | prepart    |
-      | wykrzyknik                         | interj     |
 
   Szablon scenariusza: kategorie gramatyczne
     Jeżeli w słowniku występuje kategoria gramatycza '<kategoria>'
