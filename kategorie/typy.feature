@@ -78,4 +78,5 @@ Właściwość: typy kategorii gramatycznych, fleksyjnych, etc.
       | wokaliczność    | vocal      |
       | kasztowość      | lcase      |
       | czas            | tense      |
+      | tryb            | mood       |
       | kropka          | punct      |

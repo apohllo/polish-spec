@@ -122,6 +122,16 @@ Właściwość: wartości kategorii gramatycznych
       | przeszły     | czas      | past       |
       | przyszły     | czas      | future     |
 
+  Szablon scenariusza: tryb
+    Jeżeli w słowniku występuje wartość kategorii gramatycznej '<wartosc>'
+    Wtedy należy ona do kategorii gramatycznej '<kategoria>'
+    I posiada ona oznaczenie '<oznaczenie>'
+    Przykłady:
+      | wartosc         | kategoria | oznaczenie |
+      | oznajmujący     | tryb      | indic      |
+      | przypuszczający | tryb      | cond       |
+      | rozkazujący     | tryb      | imper      |
+
   Szablon scenariusza: kropka
     Jeżeli w słowniku występuje wartość kategorii gramatycznej '<wartosc>'
     Wtedy należy ona do kategorii gramatycznej '<kategoria>'
