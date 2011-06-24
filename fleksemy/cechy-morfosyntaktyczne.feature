@@ -98,10 +98,10 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I posiada 14 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'liczebnik wielorodzajowy'
-    Wtedy odmienia się przez rodzaje
+    Wtedy odmienia się defektywnie przez rodzaje
     I odmienia się przez przypadki
     I odmienia się defektywnie przez akomodacyjność
-    I posiada 28 pozycji fleksyjnych
+    I posiada 21 pozycji fleksyjnych
 
     # Liczebnik ten tym różni się od dwurodzajowego, że jego
     # wartość jest nieokreślona, dlatego nie może być stowarzyszony
