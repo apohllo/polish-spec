@@ -857,9 +857,15 @@ Właściwość: przykłady cech morfologicznych i morfosyntaktycznych fleksemów
       | trzeba  |
 
     Jeżeli w słowniku jest forma '<forma>'
-    I istnieje dla niej fleksem typu 'czasownik nieosobowy'
+    I istnieje dla niej fleksem typu 'forma teraźniejsza czasownika nieosobowego'
     Wtedy dla tej formy posiada on czas '<czas>'
     Przykłady:
       | forma    | czas         |
       | należy   | teraźniejszy |
+
+    Jeżeli w słowniku jest forma '<forma>'
+    I istnieje dla niej fleksem typu 'forma przeszła czasownika nieosobowego'
+    Wtedy dla tej formy posiada on czas '<czas>'
+    Przykłady:
+      | forma    | czas         |
       | należało | przeszły     |

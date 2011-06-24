@@ -210,7 +210,11 @@ Właściwość: typy fleksemów
     # z CLP
     Jeżeli w słowniku jest forma 'należy'
     I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'czasownik nieosobowy'
+    Wtedy znajduję fleksem typu 'forma teraźniejsza czasownika nieosobowego'
+
+    Jeżeli w słowniku jest forma 'należało'
+    I szukam dla niej fleksemów
+    Wtedy znajduję fleksem typu 'forma przeszła czasownika nieosobowego'
 
 
   Scenariusz: fleksemy nieodmienne
@@ -248,3 +252,4 @@ Właściwość: typy fleksemów
     Jeżeli w słowniku jest forma 'itp'
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'skrót'
+

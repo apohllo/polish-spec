@@ -83,7 +83,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Wtedy posiada on liczbę mnogą
     I nie posiada rodzaju
     I odmienia się przez przypadki
-    I dla każdej formy posiada on określoną akomodacyjność
+    I odmienia się defektywnie przez akomodacyjność
     I posiada 7 pozycji fleksyjnych
 
     # Zasadniczo jak rzeczownik (odmienia się przez liczby i przypadki,
@@ -328,10 +328,13 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Jeżeli w słowniku jest fleksem typu 'czasownik analityczny'
     Wtedy jest on nieodmienny
 
-    Jeżeli w słowniku jest fleksem typu 'czasownik nieosobowy'
-    Wtedy posiada jedną formę czasu przeszłego
-    I posiada jedną formę czasu teraźniejszego
-    I posiada 2 pozycje fleksyjne
+    Jeżeli w słowniku jest fleksem typu 'forma teraźniejsza czasownika nieosobowego'
+    Wtedy posiada on czas teraźniejszy
+    I jest on nieodmienny
+
+    Jeżeli w słowniku jest fleksem typu 'forma przeszła czasownika nieosobowego'
+    Wtedy posiada on czas przeszły
+    I jest on nieodmienny
 
   Scenariusz: fleksemy niedomienne
     #TODO - ogólnie wszystkie są nieodmienne,
