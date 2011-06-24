@@ -121,3 +121,12 @@ Właściwość: wartości kategorii gramatycznych
       | teraźniejszy | czas      | present    |
       | przeszły     | czas      | past       |
       | przyszły     | czas      | future     |
+
+  Szablon scenariusza: kropka
+    Jeżeli w słowniku występuje wartość kategorii gramatycznej '<wartosc>'
+    Wtedy należy ona do kategorii gramatycznej '<kategoria>'
+    I posiada ona oznaczenie '<oznaczenie>'
+    Przykłady:
+      | wartosc         | kategoria | oznaczenie |
+      | obecność kropki | kropka    | pun        |
+      | brak kropki     | kropka    | npun       |
