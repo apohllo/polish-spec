@@ -329,11 +329,11 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Wtedy jest on nieodmienny
 
     Jeżeli w słowniku jest fleksem typu 'forma teraźniejsza czasownika nieosobowego'
-    Wtedy posiada on czas teraźniejszy
+    Wtedy posiada czas teraźniejszy
     I jest on nieodmienny
 
     Jeżeli w słowniku jest fleksem typu 'forma przeszła czasownika nieosobowego'
-    Wtedy posiada on czas przeszły
+    Wtedy posiada czas przeszły
     I jest on nieodmienny
 
   Scenariusz: fleksemy niedomienne
