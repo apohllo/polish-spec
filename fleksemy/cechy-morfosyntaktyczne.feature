@@ -228,15 +228,15 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     #     zrobił-by-ś - tryb przypuszczający - czas nieokreślony)
     I posiada on ustalony czas
     I posiada on ustalony aspekt
-    I posiada on tryb oznajmujący
+    I posiada tryb oznajmujący
     I posiada 6 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'forma przyszła czasownika BYĆ'
     Wtedy odmienia się przez liczbę
     I odmienia się przez osoby
-    I posiada on czas przyszły
-    I posiada on aspekt niedokonany
-    I posiada on tryb oznajmujący
+    I posiada czas przyszły
+    I posiada aspekt niedokonany
+    I posiada tryb oznajmujący
     I posiada 6 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'aglutynant czasownika BYĆ'
@@ -251,7 +251,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
 
     Jeżeli w słowniku jest fleksem typu 'aglutynant trybu przypuszczającego'
     Wtedy jest on nieodmienny
-    I posiada on tryb przypuszczający
+    I posiada tryb przypuszczający
     # I odmienia się przez aglutynacyjność: byś zrobił to - zrobił-byś to
 
     # TODO wprowadzić domyślne wartości pewnych cech gramatycznych,
@@ -271,7 +271,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Wtedy odmienia się przez liczbę
     I odmienia się defektywnie przez osoby
     I posiada on ustalony aspekt
-    I posiada on tryb rozkazujący
+    I posiada tryb rozkazujący
     I posiada 3 pozycje fleksyjne
 
     Jeżeli w słowniku jest fleksem typu 'bezosobnik'
@@ -284,11 +284,11 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
 
     Jeżeli w słowniku jest fleksem typu 'imiesłów przysłówkowy współczesny'
     Wtedy jest on nieodmienny
-    I posiada on aspekt niedokonany
+    I posiada aspekt niedokonany
 
     Jeżeli w słowniku jest fleksem typu 'imiesłów przysłówkowy uprzedni'
     Wtedy jest on nieodmienny
-    I posiada on aspekt dokonany
+    I posiada aspekt dokonany
 
     Jeżeli w słowniku jest fleksem typu 'imiesłów przymiotnikowy czynny'
     Wtedy odmienia się przez liczbę
@@ -298,7 +298,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     # ponadto nie ma konsekwencji - przymiotniki (i rzeczowniki?)
     # nie odmieniają się przez zanegowanie
     #I odmienia się przez zanegowanie
-    I posiada on aspekt niedokonany
+    I posiada aspekt niedokonany
     I posiada 42 pozycje fleksyjne
 
     Jeżeli w słowniku jest fleksem typu 'imiesłów przymiotnikowy bierny'
@@ -329,8 +329,8 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Wtedy jest on nieodmienny
 
     Jeżeli w słowniku jest fleksem typu 'czasownik nieosobowy'
-    Wtedy posiada on jedną formę czasu przeszłego
-    I posiada on jedną formę czasu teraźniejszego
+    Wtedy posiada jedną formę czasu przeszłego
+    I posiada jedną formę czasu teraźniejszego
     I posiada 2 pozycje fleksyjne
 
   Scenariusz: fleksemy niedomienne
