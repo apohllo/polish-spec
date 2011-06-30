@@ -62,14 +62,11 @@ Właściwość: typy fleksemów
     Wtedy znajduję fleksem typu 'liczba'
 
   Scenariusz: fleksemy przymiotnikowe
+    # odmiania przez stopnie odbywa się na poziomie leksemów
     # adj
     Jeżeli w słowniku jest forma 'polski'
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'przymiotnik'
-
-    Jeżeli w słowniku jest forma 'taki'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'przymiotnik niestopniowalny'
 
     # adja
     Jeżeli w słowniku jest forma 'polsko'
@@ -91,11 +88,6 @@ Właściwość: typy fleksemów
     Jeżeli w słowniku jest forma 'dobrze'
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'przysłówek'
-
-    # z CLP
-    Jeżeli w słowniku jest forma 'ludzko'
-    I szukam dla niej fleksemów
-    Wtedy znajduję fleksem typu 'przysłówek nieodmienny'
 
   Scenariusz: fleksemy zaimkowe
     # ppron12, CLP: zaimek bezrodzajowy
@@ -248,8 +240,7 @@ Właściwość: typy fleksemów
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'znak interpunkcyjny'
 
-    # brev
+    # brev - są odmienne!
     Jeżeli w słowniku jest forma 'itp'
     I szukam dla niej fleksemów
     Wtedy znajduję fleksem typu 'skrót'
-

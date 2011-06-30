@@ -277,7 +277,7 @@ Właściwość: przykłady cech morfologicznych i morfosyntaktycznych fleksemów
     Wtedy dla tej formy posiada on liczbę '<liczba>'
     I dla tej formy posiada on rodzaj '<rodzaj>'
     I dla tej formy posiada on przypadek '<przypadek>'
-    I dla tej formy posiada on stopień '<stopień>'
+    I posiada on stopień '<stopień>'
     Przykłady:
       | forma       | liczba     | rodzaj           | przypadek   | stopień  |
       | mały        | pojedyncza | męski osobowy    | mianownik   | równy    |
@@ -326,24 +326,6 @@ Właściwość: przykłady cech morfologicznych i morfosyntaktycznych fleksemów
       | najmniejszy | pojedyncza | męski osobowy    | mianownik   | najwyższy|
 
     Jeżeli w słowniku jest forma '<forma>'
-    I istnieje dla niej fleksem typu 'przymiotnik niestopniowalny'
-    Wtedy dla tej formy posiada on liczbę '<liczba>'
-    I dla tej formy posiada on rodzaj '<rodzaj>'
-    I dla tej formy posiada on przypadek '<przypadek>'
-    Przykłady:
-      | forma    | liczba     | rodzaj        | przypadek   |
-      | taki     | pojedyczna | męski osobowy | mianownik   |
-      | takiego  | pojedyncza | męski osobowy | dopełniacz  |
-      | takiemu  | pojedyncza | męski osobowy | celownik    |
-      | takiego  | pojedyncza | męski osobowy | biernik     |
-      | takim    | pojedyncza | męski osobowy | narzędnik   |
-      | takim    | pojedyncza | męski osobowy | miejscownik |
-      | taki     | pojedyncza | męski osobowy | wołacz      |
-      | taka     | pojedyncza | żeński        | mianownik   |
-      | takie    | pojedyncza | nijaki        | mianownik   |
-      | pierwszy | pojedyncza | męski osobowy | mianownik   |
-
-    Jeżeli w słowniku jest forma '<forma>'
     I istnieje dla niej flesem typu 'przymiotnik przyprzymiotnikowy'
     Wtedy jest on nieodmienny
     Przykłady:
@@ -369,22 +351,17 @@ Właściwość: przykłady cech morfologicznych i morfosyntaktycznych fleksemów
   Scenariusz: fleksemy przysłówkowe
     Jeżeli w słowniku jest forma '<forma>'
     I istnieje dla niej fleksem typu 'przysłówek'
-    Wtedy dla tej formy posiada on stopień '<stopien>'
+    Wtedy posiada on stopień '<stopień>'
     Przykłady:
-      | forma      | stopien   |
+      | forma      | stopień   |
       | dobrze     | równy     |
       | lepiej     | wyższy    |
       | najlepiej  | najwyższy |
       | głupio     | równy     |
       | głupiej    | wyższy    |
       | najgłupiej | najwyższy |
-
-    Jeżeli w słowniku jest forma '<forma>'
-    I istnieje dla niej fleksem typu 'przysłówek niestopniowalny'
-    Wtedy jest on nieodmienny
-    Przykłady:
-      | forma    |
-      | ludzko   |
+      | forma      | równy     |
+      | ludzko     | równy     |
 
   Scenariusz: fleksemy zaimkowe
     Jeżeli w słowniku jest forma '<forma>'

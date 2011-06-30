@@ -133,16 +133,10 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Wtedy odmienia się przez liczbę
     I odmienia się przez rodzaje
     I odmienia się przez przypadki
-    I odmienia się przez stopnie
-    # 6 * 7 * 3
-    I posiada 126 pozycji fleksyjnych
-
-    Jeżeli w słowniku jest fleksem typu 'przymiotnik niestopniowalny'
-    Wtedy posiada on stopień równy
-    I odmienia się przez liczbę
-    I odmienia się przez rodzaje
-    I odmienia się przez przypadki
-    I posiada 42 pozycje fleksyjnych
+    # Stopniowanie przymiotników realizowane jest na poziomie leksemów
+    I posiada on określony stopień
+    # 6 * 7
+    I posiada 42 pozycje fleksyjne
 
     Jeżeli w słowniku jest fleksem typu 'przymiotnik przyprzymiotnikowy'
     Wtedy jest on nieodmienny
@@ -155,11 +149,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
 
   Scenariusz: fleksemy przysłówkowe
     Jeżeli w słowniku jest fleksem typu 'przysłówek'
-    Wtedy jest on stopniowalny
-    I posiada 3 pozycje fleksyjne
-
-    Jeżeli w słowniku jest fleksem typu 'przysłówek nieodmienny'
-    Wtedy posiada on stopień równy
+    Wtedy posiada on określony stopień
     I jest on nieodmienny
 
   Scenariusz: fleksemy zaimkowe

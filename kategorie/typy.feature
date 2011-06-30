@@ -22,12 +22,10 @@ Właściwość: typy kategorii gramatycznych, fleksyjnych, etc.
       | liczebnik nieokreślony                     | numind     |
       | liczba                                     | numnum     |
       | przymiotnik                                | adj        |
-      | przymiotnik niestopniowalny                | adjng      |
       | przymiotnik przyprzymiotnikowy             | adja       |
       | przymiotnik poprzyimkowy                   | adjp       |
       | przymiotnik nieodmienny                    | adjdef     |
       | przysłówek                                 | adv        |
-      | przysłówek nieodmienny                     | advdef     |
       | zaimek bezrodzajowy                        | ppron12    |
       | zaimek trzecioosobowy                      | ppron3     |
       | zaimek zwrotny                             | siebie     |
