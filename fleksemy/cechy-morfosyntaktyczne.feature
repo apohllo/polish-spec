@@ -154,12 +154,12 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
 
   Scenariusz: fleksemy zaimkowe
     Jeżeli w słowniku jest fleksem typu 'zaimek bezrodzajowy'
-    Wtedy posiada on określoną liczbę
-    I posiada on określoną osobę
+    Wtedy posiada on ustaloną liczbę
+    I posiada on ustaloną osobę
     I odmienia się przez przypadki
     # Na poziomie fleksemów odróżniamy fleksem ja - mnie od fleksemu ja - mi
     # Fleksemy te będą przynależeć do jednego leksemu.
-    I posiada on określoną akcentowość
+    I posiada on ustaloną akcentowość
     I posiada 7 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'zaimek trzecioosobowy'
@@ -168,9 +168,9 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I posiada on ustalony rodzaj
     I odmienia się przez przypadki
     # Na poziomie fleksemów odróżniamy fleksem on - jego od fleksemu on - go
-    I posiada on określoną poprzyimkowość
+    I posiada on ustaloną poprzyimkowość
     # Na poziomie fleksemów odróżniamy fleksem on - jemu od fleksemu on - mu
-    I posiada on określoną akcentowość
+    I posiada on ustaloną akcentowość
     I posiada 14 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'zaimek zwrotny'
