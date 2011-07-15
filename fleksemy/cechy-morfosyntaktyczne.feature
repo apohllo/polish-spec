@@ -134,7 +134,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I odmienia się przez rodzaje
     I odmienia się przez przypadki
     # Stopniowanie przymiotników realizowane jest na poziomie leksemów
-    I posiada on określony stopień
+    I posiada on ustalony stopień
     # 6 * 7
     I posiada 42 pozycje fleksyjne
 
@@ -149,7 +149,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
 
   Scenariusz: fleksemy przysłówkowe
     Jeżeli w słowniku jest fleksem typu 'przysłówek'
-    Wtedy posiada on określony stopień
+    Wtedy posiada on ustalony stopień
     I jest on nieodmienny
 
   Scenariusz: fleksemy zaimkowe
@@ -235,7 +235,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I odmienia się przez wokaliczność
     # Aspekt aglutynantu BYĆ nie jest cechą morfologiczną, lecz stricte syntaktyczną.
     # Powinien być raczej przypisany leksemowi, którego ten aglutynant jest składnikiem.
-    #I posiada określony aspekt
+    #I posiada ustalony aspekt
     # TODO zweryfikować liczbę pozycji fleksyjnych
     I posiada 8 pozycji fleksyjnych
 
