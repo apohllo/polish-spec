@@ -247,7 +247,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     # TODO wprowadzić domyślne wartości pewnych cech gramatycznych,
     # np. domyślnie pseudoimiesłów jest w 3 osobie, ma tryb oznajmujący i
     # czas przeszły
-    Jeżeli w słowniku jest fleksemy typu 'pseudoimiesłów'
+    Jeżeli w słowniku jest fleksem typu 'pseudoimiesłów'
     Wtedy odmienia się przez liczbę
     I odmienia się przez rodzaje
     I posiada on ustalony aspekt
