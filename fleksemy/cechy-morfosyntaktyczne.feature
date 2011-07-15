@@ -33,7 +33,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Jeżeli w słowniku jest fleksem typu 'rzeczownik deprecjatywny'
     Wtedy posiada on ustalony rodzaj
     I posiada on ustaloną kasztowość
-    I posiada on liczbę mnogą
+    I posiada liczbę mnogą
     I odmienia się przez przypadki: mianownik i wołacz
     I posiada 2 pozycje fleksyjne
 
@@ -54,7 +54,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
   # liczebniki
   Scenariusz: fleksemy liczebnikowe
     Jeżeli w słowniku jest fleksem typu 'liczebnik dwurodzajowy'
-    Wtedy posiada on liczbę mnogą
+    Wtedy posiada liczbę mnogą
     I odmienia się przez rodzaje
     I odmienia się przez przypadki
     I odmienia się defektywnie przez akomodacyjność
@@ -80,7 +80,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     # Liczba oznacza liczbę wymaganą dla podrzędnej frazy nominalnej.
     # W związkach z rzeczownikami liczebnik o akomodacyjności rządzącej
     # zawsze (?) wymaga rodzaju nijakiego i liczby pojedynczej.
-    Wtedy posiada on liczbę mnogą
+    Wtedy posiada liczbę mnogą
     I nie posiada rodzaju
     I odmienia się przez przypadki
     I odmienia się defektywnie przez akomodacyjność
@@ -93,7 +93,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Jeżeli w słowniku jest fleksem typu 'liczebnik jednorodzajowy'
     Wtedy odmienia się przez liczbę
     I odmienia się przez przypadki
-    I posiada on rodzaj męski nieżywotny
+    I posiada rodzaj męski nieżywotny
     I posiada akomodacyjność rządzącą
     I posiada 14 pozycji fleksyjnych
 
@@ -163,7 +163,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I posiada 7 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'zaimek trzecioosobowy'
-    Wtedy posiada on trzecią osobę
+    Wtedy posiada trzecią osobę
     I odmienia się przez liczbę
     I posiada on ustalony rodzaj
     I odmienia się przez przypadki
@@ -181,7 +181,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     Jeżeli w słowniku jest fleksem typu 'zaimek dwurodzajowy'
     # jak rzeczownik defektywny - jeśli tyle i tylu są osobnymi fleksemami
     # jak liczebnik (dwurodzajowy) - jeśli oba fleksemy są traktowane jako jeden
-    Wtedy posiada on liczbę mnogą
+    Wtedy posiada liczbę mnogą
     I posiada on ustalony rodzaj
     I odmienia się przez przypadki
     I posiada 7 pozycji fleksyjnych
@@ -192,15 +192,15 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
 
     Jeżeli w słowniku jest fleksem typu 'zaimek nieosobowy'
     # jak rzeczownik defektywny, ale ma konkretną liczbę (pojedynczą) i rodzaj (nijaki)
-    Wtedy posiada on liczbę pojedynczą
-    I posiada on rodzaj nijaki
+    Wtedy posiada liczbę pojedynczą
+    I posiada rodzaj nijaki
     I odmienia się przez przypadki
     I posiada 7 pozycji fleksyjnych
 
     Jeżeli w słowniku jest fleksem typu 'zaimek osobowy'
     # j.w.
-    Wtedy posiada on liczbę pojedynczą
-    I posiada on rodzaj męski osobowy
+    Wtedy posiada liczbę pojedynczą
+    I posiada rodzaj męski osobowy
     I odmienia się przez przypadki
     I posiada 7 pozycji fleksyjnych
 
@@ -305,7 +305,7 @@ Właściwość: cechy morfologiczne i morfosyntaktyczne fleksemów
     I odmienia się przez przypadki
     # jw.
     #I odmienia się przez zanegowanie
-    I posiada on rodzaj nijaki
+    I posiada rodzaj nijaki
     I posiada on ustalony aspekt
     I posiada 14 pozycji fleksyjnych
 
